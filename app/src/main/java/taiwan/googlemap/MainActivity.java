@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.buttonV2:
-                startActivity(new Intent(this, MapV3.class));
+                startActivity(new Intent(this, CircleDemoActivity.class));
                 break;
             case R.id.buttonV3:
                 startActivity(new Intent(this, MapV3.class));
