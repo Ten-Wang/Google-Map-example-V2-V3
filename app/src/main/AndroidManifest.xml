@@ -29,13 +29,13 @@
         android:theme="@style/AppTheme">
         <!--<meta-data-->
             <!--android:name="com.google.android.geo.API_KEY"-->
-            <!--android:value="AIzaSyDHG94CzaU9Svh3nXM-qPDVl-EmEr8Gxac" />-->
+            <!--android:value="YourAppKey" />-->
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyDHG94CzaU9Svh3nXM-qPDVl-EmEr8Gxac" />
+            android:value="YourAppKey" />
 
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -44,9 +44,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MapV2"/>
         <activity android:name=".MapV3"/>
-        <activity android:name=".CircleDemoActivity"/>
+        <activity android:name=".MapV2"/>
     </application>
 
 </manifest>
